@@ -1,3 +1,5 @@
+[![GitHub release](https://img.shields.io/github/release/UnitVectorY-Labs/adk-docker-base.svg)](https://github.com/UnitVectorY-Labs/adk-docker-base/releases/latest) [![License](https://img.shields.io/badge/license-MIT-blue)](https://opensource.org/licenses/MIT) [![Active](https://img.shields.io/badge/Status-Active-green)](https://guide.unitvectorylabs.com/bestpractices/status/#active)
+
 # adk-docker-base
 
 Docker image based on python docker image with [Google Agent Development Kit](https://github.com/google/adk-python) (ADK) pre-installed for streamlined AI agent development.
