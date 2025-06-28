@@ -16,7 +16,7 @@ This image is a **base image** for building your own AI agents using the ADK, al
 
 ## Using This Image
 
-You won’t run `adk-docker-base` by itself. Instead, **extend** it in your own agent project with your ADK Python code. If you need to install any extra dependencies, you can do so in your own Dockerfile which means using this immage is probably not a good idea.
+You won’t run `adk-docker-base` by itself. Instead, **extend** it in your own agent project with your ADK Python code. If you need to install any extra dependencies, you can do so in your own Dockerfile which means using this immage is probably not a good idea. The intent of this image here is to allow for rapid iteration of ADK based agents off of a common Docker base image.
 
 ### Project Layout
 
@@ -64,6 +64,8 @@ root_agent = Agent(
 ```
 
 ### Example `Dockerfile`
+
+If you are actually going to use this image somewhere, don't actually stick with `latest`, specify an actual version so it is consistent.
 
 ```
 FROM ghcr.io/unitvectory-labs/adk-docker-base:latest
