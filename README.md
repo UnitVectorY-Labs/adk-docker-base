@@ -75,7 +75,7 @@ COPY my_agent/ ./my_agent/
 EXPOSE 8000
 
 # Run the Web UI for ADK
-CMD ["adk", "web"]
+CMD ["adk", "web", "--host", "0.0.0.0", "--port", "8000"]
 ```
 
 ### Build & Run
