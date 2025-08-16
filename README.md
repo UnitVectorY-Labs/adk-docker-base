@@ -54,7 +54,7 @@ def echo_tool(text_to_echo: str) -> dict:
 
 root_agent = Agent(
     name="echo_agent",
-    model="gemini-2.0-flash",  # Assuming a model, adjust if needed
+    model="gemini-2.5-flash",  # Pick the best model for your use case
     description="An agent that echoes back the user's input.",
     instruction="Echo back whatever the user says.",
     tools=[
