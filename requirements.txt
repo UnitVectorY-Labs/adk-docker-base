@@ -1,2 +1,2 @@
 # requirements.txt
-google-adk==1.15.1
+google-adk==1.16.0
