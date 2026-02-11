@@ -1,6 +1,9 @@
 # Always use the latest version of python 3 for base image
 FROM python:3.12-slim
 
+# Build argument for version injection
+ARG VERSION=dev
+
 # Keep bytecode & cache out of layers
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PIP_DISABLE_PIP_VERSION_CHECK=1 \
