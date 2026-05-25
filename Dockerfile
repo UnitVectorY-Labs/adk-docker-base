@@ -1,5 +1,5 @@
 # Always use the latest version of python 3 for base image
-FROM python:3.12-slim
+FROM python:3.14-slim
 
 # Build argument for version injection
 ARG VERSION=dev
